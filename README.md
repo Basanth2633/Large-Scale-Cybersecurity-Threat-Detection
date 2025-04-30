@@ -1,4 +1,5 @@
-Large-Scale Cybersecurity Threat Detection
+Large-Scale Cybersecurity Threat Detection:
+As cyberattacks become increasingly advanced, traditional intrusion detection systems often struggle to manage the scale and complexity of modern network traffic. To overcome these challenges, we developed scalable detection models using the UNSW-NB15 dataset, which mirrors real-world attack scenarios. Utilizing PySpark for distributed computing, we carried out data preprocessing, feature selection, and trained various machine learning models including Decision Trees, Naïve Bayes, Random Forest, and Gradient Boosting. Among these, Gradient Boosting achieved the highest accuracy at over 94%. Additionally, we integrated a Deep Q-Network (DQN) approach for dynamic adaptability, reaching 96% accuracy. Our system enables efficient, real-time processing of large-scale data, significantly reducing false positives and enhancing threat detection. Future directions include fine-tuning hyperparameters, deploying the models in live environments, and exploring deep learning techniques for improved robustness and adaptability.
 
 📊 Dataset:
 UNSW-NB15 dataset, designed to simulate real-world cyberattacks.
